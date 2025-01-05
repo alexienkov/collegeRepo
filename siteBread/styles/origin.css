@@ -1,0 +1,280 @@
+.icon-section {  
+    display: flex;  
+    justify-content: center;   
+    flex-wrap: wrap;  
+    margin-right:20%;
+    margin-left: 20%;
+    margin-top: 10vh;
+} 
+
+.icon-section2 {  
+    display: flex;  
+    justify-content: center;   
+    flex-wrap: wrap;  
+    margin-right: 20%;
+    margin-left: 20%;
+}  
+
+.icon-container {  
+    display: flex;  
+    align-items: flex-start;  
+    margin: 16px;   
+    padding: 1px;  
+    border: 1px ;  
+    transition: border-color 0.3s;  
+    width: calc(33% - 30px);    
+    box-sizing: border-box;
+    line-height: 1;
+    font-size:14px;
+}  
+
+.icon-container:hover {  
+    border-color: #ccc;  
+} 
+
+.dig_text {
+    line-height: 25px;
+    font-size: 15px;
+} 
+
+.icon {  
+    width: 50px;  
+    height: auto;  
+    margin-right: 15px;  
+}  
+
+.text-container {  
+    text-align: left;  
+}  
+
+.text1 {
+    
+    z-index: 1;
+}
+
+.bold-text {  
+    font-size: 18px;  
+    font-weight: bold;  
+    margin: 0;  
+}  
+
+#breadtable {
+
+    height: 74vh;
+    width: auto;
+}
+
+.blackblock {
+
+    color: white;
+    font-size: 60px;
+    padding: 0;
+    line-height: 0;
+}
+
+.freshbread {
+    font-weight: bold;  
+}
+
+
+.card-container {  
+    display: flex;             
+    flex-wrap: wrap;           
+    justify-content: center;    
+}  
+
+.card {  
+    background-color: white;  
+    border-radius: 15px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    overflow: hidden;   
+    text-align: center;  
+    margin: 10px;             
+    display: flex;            
+    flex-direction: column;    
+    justify-items: center;
+    box-sizing: border-box;
+    height: 400px;
+    width: 250px;
+    padding: 25px;
+}  
+
+.img_card {                
+    height: 150px;              
+    max-width: 200px;
+    border-radius: 25px;
+}  
+
+.card_con {  
+      
+} 
+
+.loaf {
+
+    margin-top: 29vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#loaf {
+
+    display: flex;
+}
+
+
+.card-container2 {  
+    display: flex;              
+    flex-wrap: wrap;           
+    justify-content: center;    
+}  
+
+.card2 {  
+    background-color: white;  
+    border-radius: 15px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    overflow: hidden;     
+    margin: 10px;              
+    display: flex;             
+    flex-direction: column;    
+    box-sizing: border-box;
+    height: 350px;
+    width: 350px;
+    padding: 25px;
+}
+
+#menu_text {
+
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+
+    padding-top: 5%;  
+    padding-bottom: 4%;
+    color: white;
+}
+
+#ourbread {
+
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 3vh;  
+    padding-bottom: 4%;
+    color: black;
+}
+
+.text4 {
+
+position: absolute;
+margin-left: 25%;
+margin-top: 4vh;
+}
+
+#text7 {
+margin-top: 60px;
+font-size: 35px;
+font-weight: bold;
+}
+
+#text8 {
+    margin-top:60px;
+    font-size: 22px;
+    line-height: 40px;
+    margin-right: 35%;
+    font-weight: 100;
+
+}
+
+.card-container3 {  
+    display: flex;              
+    text-align: center; 
+    margin-left: 23%;
+    padding-top: 20vh;
+}  
+
+.card3 {  
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    overflow: hidden;     
+    margin: 10px;              /* Отступы между карточками */  
+    display: flex;             /* Используем flex для карточки */  
+    flex-direction: column;    /* Элементы располагаются вертикально */  
+    box-sizing: border-box;
+    height: 500px;
+    width: 500px;
+    padding: 25px;
+    
+}
+
+.card_title2 {
+    color: orange;
+}
+
+.card_text2 {
+    color: white;
+    font-size: 25px;
+}
+
+        .loaf {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0;
+            margin-left: 25%;
+            margin-top: 100px;
+        }
+        .loaftext {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            font-size: 70px;
+            font-weight: bold;
+        }
+        #breaadd {
+            position: absolute;
+            right: -500px; 
+            top: 50px;
+            width: 510px; 
+            z-index: 2;
+        }
+        #bread2 {
+            position: absolute;
+            left: 0;
+            top: 90%; 
+            width: 600px; 
+            margin-top: 10px;
+        }
+
+.freshbreadtext {
+    padding-top: 10px;
+    font-size:20px;
+    box-sizing: border-box;
+}
+
+.candy {
+    list-style-type: square;
+  font-size: 20px;
+line-height: 1.8;
+}
+
+#contactsss {
+    color: orange;
+    text-decoration: none;
+}
+
+#freeppp {
+    color: white;
+}
+.card_href {
+color: black;
+text-underline-offset: 15px;
+}
+
+.text_9 {
+    padding-bottom: 100px;
+}
